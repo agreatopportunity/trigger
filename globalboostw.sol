@@ -662,4 +662,4 @@ contract WBSTY is StandardToken, DetailedERC20("Wrapped BSTY", "WBSTY", 8),
     function renounceOwnership() public onlyOwner {
         revert("renouncing ownership is blocked");
     }
-}11
+}
